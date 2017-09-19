@@ -8,6 +8,6 @@ describe('oddEven module', function() {
   });
 
   it('should return the string even when passed an even nubmer', function() {
-    expect(oddEven(4)).to.equal('odd');
+    expect(oddEven(4)).to.equal('even');
   });
 });
